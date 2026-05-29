@@ -11,5 +11,5 @@ app.include_router(items.router)
 # Código que se añade
 @app.get("/status")
 def version():
-    return {"status": "Ango, Nombre - v.2.0"}
+    return {"status": "Ango, Nombre - v.3.0"}
 
